@@ -20,7 +20,8 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'capistrano', '>= 3.0'
   spec.add_dependency 'capistrano-rbenv', '>= 2.0'
-  spec.add_dependency 'capistrano-rbenv-install', '~> 1.1.0'
-  
+  spec.add_dependency 'capistrano-rbenv-install'
+  spec.add_dependency 'sshkit-sudo'
+
   spec.add_development_dependency "rake"
 end
